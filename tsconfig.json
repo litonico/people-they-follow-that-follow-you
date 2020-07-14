@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "ES2018",
+    "jsx": "react",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "noEmitOnError": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "suppressWhileTypeErrorsPresent": true,
+        "alwaysShowRuleFailuresAsWarnings": true
+      }
+    ]
+  },
+  "include": [ "./src" ]
+}

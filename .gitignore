@@ -1,0 +1,7 @@
+/.bundle
+/.gem
+/node_modules
+*.map
+/build
+
+.DS_Store

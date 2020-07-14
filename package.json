@@ -1,0 +1,21 @@
+{
+  "name": "randocalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "npm run watchTsc & npm run watchServer",
+    "watchServer": "$(npm bin)/nodemon --exec 'node build/server.js' --watch 'build'",
+    "watchTsc": "$(npm bin)/tsc --watch --outDir build"
+  },
+  "author": "lito",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "twitter-lite": "^0.11.0",
+    "typescript": "^3.9.2",
+    "typescript-tslint-plugin": "^0.5.5"
+  }
+}
